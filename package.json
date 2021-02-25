@@ -1,11 +1,11 @@
 {
-  "name": "ual-scatter",
-  "version": "0.3.0",
+  "name": "@arisenual/peepsid-desktop",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
   "author": {
-    "name": "Block.one",
-    "url": "https://block.one"
+    "name": "PeepsLabs",
+    "url": "https://peepsx.com"
   },
   "contributors": [
     "Nasser Abouelazm",
@@ -20,10 +20,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "@scatterjs/core": "2.7.51",
-    "@scatterjs/eosjs2": "1.5.33",
+    "@peepsidjs/core": "^1.0.0",
+    "@peepsidjs/arisensdk2": "^1.0.0",
     "elliptic": "6.5.2",
-    "eosjs": "21.0.1-rc1",
+    "arisensdk": "^1.0.0",
     "universal-authenticator-library": "0.3.0"
   },
   "jest": {
@@ -60,6 +60,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/EOSIO/ual-scatter"
+    "url": "https://github.com/peepsid/"
   }
 }
